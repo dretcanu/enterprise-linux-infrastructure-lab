@@ -1,0 +1,15 @@
+# Local hostname resolution for the Enterprise Linux Infrastructure Lab
+
+127.0.0.1       localhost
+127.0.1.1       lnx-srv01
+
+# EnterpriseLab internal network
+192.168.100.10  lnx-srv01
+192.168.100.20  lnx-cl01
+
+# IPv6 defaults
+::1             ip6-localhost ip6-loopback
+fe00::0         ip6-localnet
+ff00::0         ip6-mcastprefix
+ff02::1         ip6-allnodes
+ff02::2         ip6-allrouters

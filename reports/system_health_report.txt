@@ -1,0 +1,64 @@
+=========================================
+Enterprise Linux Infrastructure Lab
+System Health Report
+=========================================
+
+Hostname:
+lnx-srv01
+
+Current Date:
+Mon 13 Jul 07:34:13 UTC 2026
+
+Uptime:
+ 07:34:13 up 14:05,  1 user,  load average: 0.00, 0.00, 0.00
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           680M  4.4M  676M   1% /run
+/dev/sda2        40G  6.9G   31G  19% /
+tmpfs           1.7G     0  1.7G   0% /dev/shm
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.7G     0  1.7G   0% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-networkd.service
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           340M  8.0K  340M   1% /run/user/1000
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           3.3Gi       500Mi       2.3Gi       4.7Mi       761Mi       2.8Gi
+Swap:          3.8Gi          0B       3.8Gi
+
+CPU Load:
+0.00 0.00 0.00 1/230 5168
+
+IP Addresses:
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+enp0s3           UP             10.0.2.15/24 metric 100 fd17:625c:f037:2:a00:27ff:feac:4251/64 fe80::a00:27ff:feac:4251/64 
+enp0s8           UP             192.168.100.10/24 fe80::a00:27ff:fec4:6774/64 
+
+Running Services:
+  UNIT                        LOAD   ACTIVE SUB     DESCRIPTION
+  apache-htcacheclean.service loaded active running Disk Cache Cleaning Daemon for Apache HTTP Server
+  apache2.service             loaded active running The Apache HTTP Server
+  chrony.service              loaded active running chrony, an NTP client/server
+  cron.service                loaded active running Regular background program processing daemon
+  dbus.service                loaded active running D-Bus System Message Bus
+  fsidd.service               loaded active running NFS FSID Daemon
+  fwupd.service               loaded active running Firmware update daemon
+  getty@tty1.service          loaded active running Getty on tty1
+  ModemManager.service        loaded active running Modem Manager
+  multipathd.service          loaded active running Device-Mapper Multipath Device Controller
+  networkd-dispatcher.service loaded active running Dispatcher daemon for systemd-networkd
+  nfs-idmapd.service          loaded active running NFSv4 ID-name mapping service
+  nfs-mountd.service          loaded active running NFS Mount Daemon
+  nfsdcld.service             loaded active running NFSv4 Client Tracking Daemon
+  polkit.service              loaded active running Authorization Manager
+  rpc-statd.service           loaded active running NFS status monitor for NFSv2/3 locking.
+  rpcbind.service             loaded active running RPC bind portmap service
+  rsyslog.service             loaded active running System Logging Service
+  smbd.service                loaded active running Samba SMB Daemon
+
+=========================================
+Report Complete
+=========================================

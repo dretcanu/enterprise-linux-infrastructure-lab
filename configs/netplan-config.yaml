@@ -1,0 +1,15 @@
+# LNX-SRV01 Netplan configuration
+# Adapter 1 (enp0s3): VirtualBox NAT, DHCP for Internet access
+# Adapter 2 (enp0s8): EnterpriseLab internal network, static address
+
+network:
+  version: 2
+  ethernets:
+    enp0s3:
+      dhcp4: true
+      dhcp6: true
+
+    enp0s8:
+      dhcp4: false
+      addresses:
+        - 192.168.100.10/24

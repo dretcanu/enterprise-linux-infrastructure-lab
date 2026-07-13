@@ -1,0 +1,7 @@
+# NFS export used by the Enterprise Linux Infrastructure Lab
+# Shares /srv/nfs/shared with hosts on the EnterpriseLab network.
+
+# rw               Allow read/write access
+# sync             Commit changes to disk before replying
+# no_subtree_check Disable subtree verification
+/srv/nfs/shared 192.168.100.0/24(rw,sync,no_subtree_check)

@@ -1,0 +1,74 @@
+=========== NETWORK HEALTH =============
+
+Hostname:
+lnx-srv01
+
+Interfaces:
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+enp0s3           UP             10.0.2.15/24 metric 100 fd17:625c:f037:2:a00:27ff:feac:4251/64 fe80::a00:27ff:feac:4251/64 
+enp0s8           UP             192.168.100.10/24 fe80::a00:27ff:fec4:6774/64 
+
+Routing:
+default via 10.0.2.2 dev enp0s3 proto dhcp src 10.0.2.15 metric 100 
+10.0.2.0/24 dev enp0s3 proto kernel scope link src 10.0.2.15 metric 100 
+10.0.2.2 dev enp0s3 proto dhcp scope link src 10.0.2.15 metric 100 
+192.168.1.1 via 10.0.2.2 dev enp0s3 proto dhcp src 10.0.2.15 metric 100 
+192.168.100.0/24 dev enp0s8 proto kernel scope link src 192.168.100.10 
+
+Listening Ports:
+Netid State  Recv-Q Send-Q    Local Address:Port  Peer Address:Port
+udp   UNCONN 0      0            127.0.0.54:53         0.0.0.0:*   
+udp   UNCONN 0      0         127.0.0.53%lo:53         0.0.0.0:*   
+udp   UNCONN 0      0      10.0.2.15%enp0s3:68         0.0.0.0:*   
+udp   UNCONN 0      0               0.0.0.0:111        0.0.0.0:*   
+udp   UNCONN 0      0               0.0.0.0:47418      0.0.0.0:*   
+udp   UNCONN 0      0             127.0.0.1:323        0.0.0.0:*   
+udp   UNCONN 0      0               0.0.0.0:59854      0.0.0.0:*   
+udp   UNCONN 0      0               0.0.0.0:55926      0.0.0.0:*   
+udp   UNCONN 0      0             127.0.0.1:908        0.0.0.0:*   
+udp   UNCONN 0      0               0.0.0.0:56373      0.0.0.0:*   
+udp   UNCONN 0      0               0.0.0.0:60495      0.0.0.0:*   
+udp   UNCONN 0      0                  [::]:34617         [::]:*   
+udp   UNCONN 0      0                  [::]:32842         [::]:*   
+udp   UNCONN 0      0                  [::]:49247         [::]:*   
+udp   UNCONN 0      0                  [::]:111           [::]:*   
+udp   UNCONN 0      0                 [::1]:323           [::]:*   
+udp   UNCONN 0      0                  [::]:58222         [::]:*   
+udp   UNCONN 0      0                  [::]:46227         [::]:*   
+tcp   LISTEN 0      50              0.0.0.0:139        0.0.0.0:*   
+tcp   LISTEN 0      4096            0.0.0.0:111        0.0.0.0:*   
+tcp   LISTEN 0      4096            0.0.0.0:22         0.0.0.0:*   
+tcp   LISTEN 0      4096            0.0.0.0:2049       0.0.0.0:*   
+tcp   LISTEN 0      50              0.0.0.0:445        0.0.0.0:*   
+tcp   LISTEN 0      4096            0.0.0.0:57871      0.0.0.0:*   
+tcp   LISTEN 0      4096         127.0.0.54:53         0.0.0.0:*   
+tcp   LISTEN 0      4096            0.0.0.0:37827      0.0.0.0:*   
+tcp   LISTEN 0      4096      127.0.0.53%lo:53         0.0.0.0:*   
+tcp   LISTEN 0      4096            0.0.0.0:44213      0.0.0.0:*   
+tcp   LISTEN 0      4096            0.0.0.0:42165      0.0.0.0:*   
+tcp   LISTEN 0      4096            0.0.0.0:34345      0.0.0.0:*   
+tcp   LISTEN 0      50                 [::]:139           [::]:*   
+tcp   LISTEN 0      511                   *:80               *:*   
+tcp   LISTEN 0      4096               [::]:111           [::]:*   
+tcp   LISTEN 0      4096               [::]:22            [::]:*   
+tcp   LISTEN 0      4096               [::]:32773         [::]:*   
+tcp   LISTEN 0      4096               [::]:2049          [::]:*   
+tcp   LISTEN 0      4096               [::]:34853         [::]:*   
+tcp   LISTEN 0      4096               [::]:49661         [::]:*   
+tcp   LISTEN 0      50                 [::]:445           [::]:*   
+tcp   LISTEN 0      4096               [::]:39661         [::]:*   
+tcp   LISTEN 0      4096               [::]:37877         [::]:*   
+
+Firewall:
+Status: active
+
+To                         Action      From
+--                         ------      ----
+OpenSSH                    ALLOW       Anywhere                  
+Samba                      ALLOW       Anywhere                  
+Anywhere                   ALLOW       192.168.100.0/24          
+OpenSSH (v6)               ALLOW       Anywhere (v6)             
+Samba (v6)                 ALLOW       Anywhere (v6)             
+
+
+========================================

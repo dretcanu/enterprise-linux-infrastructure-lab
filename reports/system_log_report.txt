@@ -1,0 +1,100 @@
+Jul 13 06:20:03 lnx-srv01 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 13 06:20:03 lnx-srv01 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Jul 13 06:25:01 lnx-srv01 CRON[4989]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jul 13 06:25:01 lnx-srv01 CRON[4991]: (root) CMD (test -x /usr/sbin/anacron || { cd / && run-parts --report /etc/cron.daily; })
+Jul 13 06:25:01 lnx-srv01 CRON[4989]: pam_unix(cron:session): session closed for user root
+Jul 13 06:30:05 lnx-srv01 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Jul 13 06:30:05 lnx-srv01 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 13 06:30:05 lnx-srv01 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Jul 13 06:35:53 lnx-srv01 systemd[1]: Starting fwupd-refresh.service - Refresh fwupd metadata and update motd...
+Jul 13 06:35:53 lnx-srv01 fwupdmgr[5013]: Updating lvfs
+Jul 13 06:35:54 lnx-srv01 fwupdmgr[5013]: Successfully downloaded new metadata:
+Jul 13 06:35:54 lnx-srv01 fwupdmgr[5013]:  • No devices are updatable
+Jul 13 06:35:54 lnx-srv01 systemd[1]: fwupd-refresh.service: Deactivated successfully.
+Jul 13 06:35:54 lnx-srv01 systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+Jul 13 06:38:50 lnx-srv01 kernel: workqueue: drain_vmap_area_work hogged CPU for >10000us 4 times, consider switching to WQ_UNBOUND
+Jul 13 06:40:04 lnx-srv01 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Jul 13 06:40:04 lnx-srv01 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 13 06:40:04 lnx-srv01 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Jul 13 06:50:07 lnx-srv01 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Jul 13 06:50:07 lnx-srv01 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 13 06:50:07 lnx-srv01 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Jul 13 06:55:02 lnx-srv01 kernel: workqueue: drm_fb_helper_damage_work hogged CPU for >10000us 11 times, consider switching to WQ_UNBOUND
+Jul 13 07:00:06 lnx-srv01 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Jul 13 07:00:06 lnx-srv01 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 13 07:00:06 lnx-srv01 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Jul 13 07:10:01 lnx-srv01 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Jul 13 07:10:01 lnx-srv01 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 13 07:10:01 lnx-srv01 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Jul 13 07:16:16 lnx-srv01 systemd[1]: Starting fwupd-refresh.service - Refresh fwupd metadata and update motd...
+Jul 13 07:16:16 lnx-srv01 fwupdmgr[5061]: Updating lvfs
+Jul 13 07:16:16 lnx-srv01 fwupdmgr[5061]: Successfully downloaded new metadata:
+Jul 13 07:16:16 lnx-srv01 fwupdmgr[5061]:  • No devices are updatable
+Jul 13 07:16:16 lnx-srv01 systemd[1]: fwupd-refresh.service: Deactivated successfully.
+Jul 13 07:16:16 lnx-srv01 systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+Jul 13 07:17:02 lnx-srv01 CRON[5071]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jul 13 07:17:02 lnx-srv01 CRON[5073]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jul 13 07:17:02 lnx-srv01 CRON[5071]: pam_unix(cron:session): session closed for user root
+Jul 13 07:20:04 lnx-srv01 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Jul 13 07:20:04 lnx-srv01 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 13 07:20:04 lnx-srv01 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Jul 13 07:30:03 lnx-srv01 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Jul 13 07:30:03 lnx-srv01 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 13 07:30:03 lnx-srv01 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Jul 13 07:40:12 lnx-srv01 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Jul 13 07:40:12 lnx-srv01 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 13 07:40:12 lnx-srv01 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Jul 13 07:40:37 lnx-srv01 crontab[5208]: (vasile) LIST (vasile)
+Jul 13 07:40:50 lnx-srv01 crontab[5220]: (vasile) BEGIN EDIT (vasile)
+Jul 13 07:43:24 lnx-srv01 crontab[5220]: (vasile) REPLACE (vasile)
+Jul 13 07:43:24 lnx-srv01 crontab[5220]: (vasile) END EDIT (vasile)
+Jul 13 07:43:37 lnx-srv01 crontab[5249]: (vasile) LIST (vasile)
+Jul 13 07:50:15 lnx-srv01 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Jul 13 07:50:15 lnx-srv01 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 13 07:50:15 lnx-srv01 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Jul 13 07:50:35 lnx-srv01 sudo[5349]: pam_unix(sudo:session): session opened for user root(uid=0) by vasile(uid=1000)
+Jul 13 07:50:35 lnx-srv01 sudo[5349]: vasile : TTY=/dev/tty1 ; PWD=/home/vasile/scripts ; USER=root ; COMMAND=/usr/bin/apt install htop -y
+Jul 13 07:50:37 lnx-srv01 sudo[5349]: pam_unix(sudo:session): session closed for user root
+Jul 13 07:52:17 lnx-srv01 sudo[5400]: pam_unix(sudo:session): session opened for user root(uid=0) by vasile(uid=1000)
+Jul 13 07:52:17 lnx-srv01 sudo[5400]: vasile : TTY=/dev/tty1 ; PWD=/home/vasile/scripts ; USER=root ; COMMAND=/usr/bin/ss -tulnp
+Jul 13 07:52:17 lnx-srv01 sudo[5400]: pam_unix(sudo:session): session closed for user root
+Jul 13 07:58:48 lnx-srv01 sudo[5455]: pam_unix(sudo:session): session opened for user root(uid=0) by vasile(uid=1000)
+Jul 13 07:58:48 lnx-srv01 sudo[5455]: vasile : TTY=/dev/tty1 ; PWD=/home/vasile/scripts ; USER=root ; COMMAND=/usr/bin/journalctl -u ssh -n 20
+Jul 13 07:58:48 lnx-srv01 sudo[5455]: pam_unix(sudo:session): session closed for user root
+Jul 13 08:00:01 lnx-srv01 CRON[5467]: pam_unix(cron:session): session opened for user vasile(uid=1000) by vasile(uid=0)
+Jul 13 08:00:01 lnx-srv01 CRON[5469]: (vasile) CMD (/home/vasile/scripts/system_health.sh > /home/vasile/scripts/daily_health_report.txt)
+Jul 13 08:00:01 lnx-srv01 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Jul 13 08:00:01 lnx-srv01 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 13 08:00:01 lnx-srv01 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Jul 13 08:00:01 lnx-srv01 CRON[5467]: pam_unix(cron:session): session closed for user vasile
+Jul 13 08:01:04 lnx-srv01 kernel: workqueue: drain_vmap_area_work hogged CPU for >10000us 5 times, consider switching to WQ_UNBOUND
+Jul 13 08:10:12 lnx-srv01 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Jul 13 08:10:12 lnx-srv01 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 13 08:10:12 lnx-srv01 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Jul 13 08:15:56 lnx-srv01 systemd[1]: Starting fwupd-refresh.service - Refresh fwupd metadata and update motd...
+Jul 13 08:15:56 lnx-srv01 fwupdmgr[5496]: Updating lvfs
+Jul 13 08:15:56 lnx-srv01 fwupdmgr[5496]: Successfully downloaded new metadata:
+Jul 13 08:15:56 lnx-srv01 fwupdmgr[5496]:  • No devices are updatable
+Jul 13 08:15:56 lnx-srv01 systemd[1]: fwupd-refresh.service: Deactivated successfully.
+Jul 13 08:15:56 lnx-srv01 systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+Jul 13 08:17:01 lnx-srv01 CRON[5506]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Jul 13 08:17:01 lnx-srv01 CRON[5508]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Jul 13 08:17:01 lnx-srv01 CRON[5506]: pam_unix(cron:session): session closed for user root
+Jul 13 08:20:24 lnx-srv01 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Jul 13 08:20:25 lnx-srv01 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 13 08:20:25 lnx-srv01 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Jul 13 08:30:08 lnx-srv01 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Jul 13 08:30:08 lnx-srv01 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 13 08:30:08 lnx-srv01 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Jul 13 08:30:59 lnx-srv01 systemd[1]: Starting man-db.service - Daily man-db regeneration...
+Jul 13 08:30:59 lnx-srv01 systemd[1]: man-db.service: Deactivated successfully.
+Jul 13 08:30:59 lnx-srv01 systemd[1]: Finished man-db.service - Daily man-db regeneration.
+Jul 13 08:40:21 lnx-srv01 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Jul 13 08:40:21 lnx-srv01 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 13 08:40:21 lnx-srv01 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Jul 13 08:50:06 lnx-srv01 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+Jul 13 08:50:06 lnx-srv01 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 13 08:50:06 lnx-srv01 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Jul 13 08:53:27 lnx-srv01 sudo[5553]: pam_unix(sudo:session): session opened for user root(uid=0) by vasile(uid=1000)
+Jul 13 08:53:27 lnx-srv01 sudo[5553]: vasile : TTY=/dev/tty1 ; PWD=/home/vasile/scripts ; USER=root ; COMMAND=/usr/bin/journalctl -u apache2 -n 20
+Jul 13 08:53:50 lnx-srv01 sudo[5553]: pam_unix(sudo:session): session closed for user root

@@ -1,0 +1,27 @@
+Ignore VirtualBox files
+
+.vdi .vbox .vbox-prev .sav *.log
+
+VirtualBox log folders
+
+Logs/
+
+Operating system files
+
+Thumbs.db .DS_Store desktop.ini
+
+Temporary files
+
+.tmp .bak .swp ~
+
+Python cache (future-proofing)
+
+pycache/ *.pyc
+
+VS Code
+
+.vscode/
+
+JetBrains
+
+.idea/
