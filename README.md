@@ -51,7 +51,7 @@ The lab was built using **Oracle VirtualBox** and consists of two Ubuntu Server 
 
 The infrastructure was designed around a simple enterprise topology where a dedicated Linux server provides infrastructure services to a separate Linux client.
 
-![Architecture Overview](diagrams/Architecture Overview.png)
+![Architecture Overview](diagrams/architecture-overview.png)
 
 ---
 
@@ -59,7 +59,7 @@ The infrastructure was designed around a simple enterprise topology where a dedi
 
 The virtual machines communicate over an isolated VirtualBox Internal Network while retaining Internet access through a NAT adapter.
 
-![Network Topology](diagrams/Network Topology.png)
+![Network Topology](diagrams/network-topology.png)
 
 ---
 
@@ -67,7 +67,7 @@ The virtual machines communicate over an isolated VirtualBox Internal Network wh
 
 The server hosts multiple enterprise services which are consumed and validated from the client virtual machine.
 
-![Service Architecture](diagrams/Service Architecture.png)
+![Service Architecture](diagrams/service-architecture.png)
 
 ---
 
